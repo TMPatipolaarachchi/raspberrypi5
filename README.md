@@ -21,6 +21,7 @@ A complete AI-powered system deployed on **Raspberry Pi 5** that detects elephan
 13. [Performance Optimization](#performance-optimization)
 14. [Model Information](#model-information)
 15. [Troubleshooting](#troubleshooting)
+16. [Contributors](#contributors)
 
 ---
 
@@ -920,6 +921,13 @@ SMOOTHING_WINDOW = 5          # Frames for behavior averaging
 | Missing logs | Check `logs/` directory; ensure write permissions |
 | Behavior always "calm" | Inspect `pose_rules.json` thresholds; verify pose model is loaded |
 | Sound classification ignored | Confirm `.h5` and `feature_order.json` are in `sound-based/model/` |
+
+---
+
+## Contributors
+
+- Tharindu M Patipolaarachchi - Project Owner and Primary Developer
+- Full list and contributor guidelines: [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
 ---
 
