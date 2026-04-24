@@ -1,0 +1,25 @@
+{
+  "feature_order": [
+    "ear_spread",
+    "trunk_length",
+    "tail_length",
+    "front_leg_stance",
+    "back_leg_stance",
+    "ear_ratio",
+    "trunk_ratio",
+    "front_leg_ratio",
+    "back_leg_ratio",
+    "tail_ratio",
+    "body_ratio",
+    "head_angle_norm",
+    "trunk_angle_norm",
+    "front_leg_angle_norm",
+    "back_leg_angle_norm",
+    "ear_angle_norm",
+    "tail_angle_norm"
+  ],
+  "n_features": 17,
+  "model_type": "pose_ml",
+  "description": "Pose feature order for ML model inference",
+  "source": "elephent_pipline.py compute_features()"
+}

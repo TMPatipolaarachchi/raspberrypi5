@@ -1,0 +1,242 @@
+{
+  "version": "1.0",
+  "description": "Rule-based classification thresholds for elephant pose behavior detection",
+  "features": [
+    "front_leg_stance",
+    "back_leg_stance",
+    "head_angle_norm",
+    "front_leg_angle_norm",
+    "back_leg_angle_norm",
+    "tail_angle_norm",
+    "ear_ratio",
+    "trunk_ratio",
+    "tail_ratio",
+    "body_ratio"
+  ],
+  "feature_statistics": {
+    "front_leg_stance": {
+      "aggressive_mean": 60.006601941747576,
+      "aggressive_std": 37.910771519332926,
+      "aggressive_min": 1.7999999999999543,
+      "aggressive_max": 127.6,
+      "normal_mean": 62.771597633136096,
+      "normal_std": 39.504279123219064,
+      "normal_min": 2.7999999999999545,
+      "normal_max": 127.6
+    },
+    "back_leg_stance": {
+      "aggressive_mean": 60.00660194174756,
+      "aggressive_std": 37.91077151933291,
+      "aggressive_min": 1.7999999999999543,
+      "aggressive_max": 127.6,
+      "normal_mean": 62.77159763313609,
+      "normal_std": 39.50427912321906,
+      "normal_min": 2.7999999999999545,
+      "normal_max": 127.6
+    },
+    "head_angle_norm": {
+      "aggressive_mean": -0.6182091196624148,
+      "aggressive_std": 0.056361518076119284,
+      "aggressive_min": -0.9379962804275392,
+      "aggressive_max": -0.5264646760595897,
+      "normal_mean": -0.6132953095861388,
+      "normal_std": 0.04955938510425499,
+      "normal_min": -0.8983021489044489,
+      "normal_max": -0.5155714882576665
+    },
+    "front_leg_angle_norm": {
+      "aggressive_mean": 0.0,
+      "aggressive_std": 0.0,
+      "aggressive_min": 0.0,
+      "aggressive_max": 0.0,
+      "normal_mean": 0.0,
+      "normal_std": 0.0,
+      "normal_min": 0.0,
+      "normal_max": 0.0
+    },
+    "back_leg_angle_norm": {
+      "aggressive_mean": 0.0,
+      "aggressive_std": 0.0,
+      "aggressive_min": 0.0,
+      "aggressive_max": 0.0,
+      "normal_mean": 0.0,
+      "normal_std": 0.0,
+      "normal_min": 0.0,
+      "normal_max": 0.0
+    },
+    "tail_angle_norm": {
+      "aggressive_mean": 0.298322082904834,
+      "aggressive_std": 0.07242949479645075,
+      "aggressive_min": 0.0312987471052935,
+      "aggressive_max": 0.4474315432887471,
+      "normal_mean": 0.3038870090857805,
+      "normal_std": 0.06949989094878985,
+      "normal_min": 0.0521802741156604,
+      "normal_max": 0.4689311968969786
+    },
+    "ear_ratio": {
+      "aggressive_mean": 0.43234548665710887,
+      "aggressive_std": 0.13169384366659448,
+      "aggressive_min": 0.1232992390713604,
+      "aggressive_max": 0.7463772746404786,
+      "normal_mean": 0.4232567096594628,
+      "normal_std": 0.13236566041506562,
+      "normal_min": 0.073087963659682,
+      "normal_max": 0.7399452438524549
+    },
+    "trunk_ratio": {
+      "aggressive_mean": 0.42407398630722165,
+      "aggressive_std": 0.04552602749563337,
+      "aggressive_min": 0.2535882204690002,
+      "aggressive_max": 0.4949064829236361,
+      "normal_mean": 0.4274093031721058,
+      "normal_std": 0.04201960081256989,
+      "normal_min": 0.2597954376572981,
+      "normal_max": 0.4982161986503335
+    },
+    "tail_ratio": {
+      "aggressive_mean": 0.24999999723642424,
+      "aggressive_std": 4.344288047421292e-09,
+      "aggressive_min": 0.249999970795667,
+      "aggressive_max": 0.2499999993029309,
+      "normal_mean": 0.2499999980334016,
+      "normal_std": 2.537325403026907e-09,
+      "normal_min": 0.249999977692795,
+      "normal_max": 0.2499999993045817
+    },
+    "body_ratio": {
+      "aggressive_mean": 0.7500000027635758,
+      "aggressive_std": 4.34428805055496e-09,
+      "aggressive_min": 0.750000000697069,
+      "aggressive_max": 0.7500000292043331,
+      "normal_mean": 0.7500000019665984,
+      "normal_std": 2.5373254078561584e-09,
+      "normal_min": 0.7500000006954183,
+      "normal_max": 0.750000022307205
+    }
+  },
+  "feature_weights": {
+    "front_leg_stance": 0.4979377572461268,
+    "back_leg_stance": 0.4979377572461281,
+    "head_angle_norm": 0.0008849097221144592,
+    "front_leg_angle_norm": 0.0,
+    "back_leg_angle_norm": 0.0,
+    "tail_angle_norm": 0.0010021667919450636,
+    "ear_ratio": 0.0016367639372506131,
+    "trunk_ratio": 0.0006006447693853674,
+    "tail_ratio": 1.4352467640209958e-10,
+    "body_ratio": 1.435246814004976e-10
+  },
+  "decision_thresholds": {
+    "midpoints": {
+      "front_leg_stance": 61.389099787441836,
+      "back_leg_stance": 61.38909978744182,
+      "head_angle_norm": -0.6157522146242768,
+      "front_leg_angle_norm": 0.0,
+      "back_leg_angle_norm": 0.0,
+      "tail_angle_norm": 0.3011045459953072,
+      "ear_ratio": 0.4278010981582858,
+      "trunk_ratio": 0.4257416447396637,
+      "tail_ratio": 0.24999999763491293,
+      "body_ratio": 0.7500000023650871
+    },
+    "margins": {
+      "front_leg_stance": 30.966020257020798,
+      "back_leg_stance": 30.966020257020787,
+      "head_angle_norm": 0.04236836127214971,
+      "front_leg_angle_norm": 0.0,
+      "back_leg_angle_norm": 0.0,
+      "tail_angle_norm": 0.05677175429809625,
+      "ear_ratio": 0.10562380163266405,
+      "trunk_ratio": 0.035018251323281305,
+      "tail_ratio": 2.7526453801792795e-09,
+      "body_ratio": 2.7526453833644476e-09
+    },
+    "aggressive_score_threshold": 0.2,
+    "normal_score_threshold": -0.2,
+    "uncertain_range": [
+      0.2,
+      0.2
+    ]
+  },
+  "classification_rules": [
+    {
+      "name": "tail_head_combination",
+      "condition": "tail_angle_norm + head_angle_norm > 0.4",
+      "effect": "increase_aggressive_score",
+      "weight": 0.12
+    },
+    {
+      "name": "leg_stance_combination",
+      "condition": "front_leg_stance + back_leg_stance > 0.4",
+      "effect": "increase_aggressive_score",
+      "weight": 0.12
+    },
+    {
+      "name": "defensive_posture",
+      "condition": "tail_ratio < -0.25 AND body_ratio < -0.25",
+      "effect": "decrease_aggressive_score",
+      "weight": 0.12
+    },
+    {
+      "name": "front_leg_stance_low",
+      "condition": "front_leg_stance < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.7469066358691903
+    },
+    {
+      "name": "back_leg_stance_low",
+      "condition": "back_leg_stance < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.7469066358691921
+    },
+    {
+      "name": "head_angle_norm_low",
+      "condition": "head_angle_norm < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.0013273645831716888
+    },
+    {
+      "name": "front_leg_angle_norm_low",
+      "condition": "front_leg_angle_norm < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.0
+    },
+    {
+      "name": "back_leg_angle_norm_low",
+      "condition": "back_leg_angle_norm < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.0
+    },
+    {
+      "name": "tail_angle_norm_low",
+      "condition": "tail_angle_norm < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.0015032501879175954
+    },
+    {
+      "name": "ear_ratio_high",
+      "condition": "ear_ratio > midpoint + margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.0024551459058759196
+    },
+    {
+      "name": "trunk_ratio_low",
+      "condition": "trunk_ratio < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 0.000900967154078051
+    },
+    {
+      "name": "tail_ratio_low",
+      "condition": "tail_ratio < midpoint - margin",
+      "effect": "increase_aggressive_score",
+      "weight": 2.1528701460314938e-10
+    },
+    {
+      "name": "body_ratio_high",
+      "condition": "body_ratio > midpoint + margin",
+      "effect": "increase_aggressive_score",
+      "weight": 2.152870221007464e-10
+    }
+  ]
+}

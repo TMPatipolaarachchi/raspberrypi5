@@ -1,0 +1,38 @@
+# Elephant Detection and Behavior Classification System
+# Requirements for Raspberry Pi 5
+# Python 3.9+ required
+
+# Core ML/DL frameworks
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0
+
+# Computer Vision
+opencv-python>=4.5.0
+opencv-python-headless>=4.5.0  # Alternative for headless systems
+
+# Deep Learning
+tensorflow>=2.10.0  # Use tensorflow-aarch64 on Raspberry Pi
+# For Raspberry Pi, install: pip install tensorflow-aarch64
+
+# Object Detection
+ultralytics>=8.0.0
+
+# Audio Processing
+librosa>=0.9.0
+soundfile>=0.10.0
+
+# ML Utilities
+scikit-learn>=1.0.0
+joblib>=1.1.0
+xgboost>=1.5.0
+
+# Utilities
+tqdm>=4.60.0
+matplotlib>=3.4.0
+
+# System monitoring (optional but recommended)
+psutil>=5.8.0
+
+# Video processing (optional, for audio extraction)
+moviepy>=1.0.0
+ffmpeg-python>=0.2.0

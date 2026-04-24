@@ -1,0 +1,23 @@
+{
+  "features": [
+    "rms",
+    "zcr",
+    "spectral_centroid",
+    "spectral_bandwidth",
+    "spectral_rolloff",
+    "dominant_frequency",
+    "mfcc_1",
+    "mfcc_2",
+    "mfcc_3",
+    "mfcc_4",
+    "mfcc_5",
+    "mfcc_6",
+    "mfcc_7",
+    "mfcc_8",
+    "mfcc_9",
+    "mfcc_10",
+    "mfcc_11",
+    "mfcc_12"
+  ],
+  "count": 18
+}

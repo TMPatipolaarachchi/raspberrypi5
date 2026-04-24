@@ -1,0 +1,19 @@
+{
+  "model_params": {
+    "n_estimators": 500,
+    "max_depth": 25,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": "balanced_subsample",
+    "bootstrap": true,
+    "oob_score": true,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "scaler_type": "RobustScaler",
+  "random_state": 42,
+  "test_size": 0.15,
+  "feature_count": 17,
+  "training_date": "2026-03-07 13:16:54.303003"
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=Elephant Detection and Behavior Classification System
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/elephent_model
+Environment=PATH=/home/pi/elephent_model/venv/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/pi/elephent_model/venv/bin/python main.py --camera
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

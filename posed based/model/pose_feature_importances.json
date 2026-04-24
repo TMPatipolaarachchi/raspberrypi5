@@ -1,0 +1,19 @@
+{
+  "trunk_length": 0.09900376262515784,
+  "body_ratio": 0.08901443508659197,
+  "tail_ratio": 0.08528721274802926,
+  "tail_length": 0.08444757577109153,
+  "ear_spread": 0.07112026253610418,
+  "front_leg_stance": 0.07083722808193049,
+  "back_leg_stance": 0.06831254648073869,
+  "head_angle_norm": 0.06439880660737625,
+  "trunk_ratio": 0.06357341104601773,
+  "tail_angle_norm": 0.06174155065308789,
+  "trunk_angle_norm": 0.06133638259841626,
+  "front_leg_ratio": 0.061103547596192465,
+  "ear_ratio": 0.061043599434889025,
+  "back_leg_ratio": 0.058779678734376464,
+  "front_leg_angle_norm": 0.0,
+  "back_leg_angle_norm": 0.0,
+  "ear_angle_norm": 0.0
+}
