@@ -1,18 +1,41 @@
-# Python cache
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 
 # Virtual environments
-venv/
 .venv/
+venv/
 env/
+ENV/
 
-# Logs and runtime artifacts
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checker / lint caches
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and runtime files
 logs/
-output/
 *.log
+*.pid
+
+# Local output artifacts
+output/
 
 # OS/editor files
 .DS_Store
@@ -20,9 +43,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Temp
+# Optional local backup/temp files
+*.save
 *.tmp
 *.temp
